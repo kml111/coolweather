@@ -6,6 +6,8 @@ public class Country extends DataSupport {
     private int id;
     private String countryName;
     private String weatherId;
+    private int cityId;
+
 
     public int getId() {
         return id;
@@ -39,5 +41,4 @@ public class Country extends DataSupport {
         this.cityId = cityId;
     }
 
-    private int cityId;
 }
